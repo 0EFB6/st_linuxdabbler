@@ -104,18 +104,20 @@ static const char *colorname[] = {
 	"#8c9440",
 	"#de935f",
 	"#5d819d",
-	"#85678f",
+	/*"#85678f",*/
+	"#281030",
 	"#5e8d87",
 	"#707880",
 
 	/* 8 bright colors */
 	/*"#373b41",*/
-	"#65676b",
+	"#0c5cfc",
 	"#cc6666",
 	"#b5bd68",
 	"#f0c674",
 	"#81a2be",
 	"#b294bb",
+	/*"#a454bc",*/
 	"#8abeb7",
 	"#c5c8c6",
 
@@ -191,7 +193,7 @@ static MouseShortcut mshortcuts[] = {
 
 /* Internal keyboard shortcuts. */
 #define MODKEY Mod1Mask
-#define TERMMOD (Mod1Mask|ShiftMask)
+#define TERMMOD (ControlMask|ShiftMask)
 
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
